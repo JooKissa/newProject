@@ -236,7 +236,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b9993c0d39882b489c9677c58fc5e71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1890350202}
 --- !u!1 &495292211
 GameObject:
   m_ObjectHideFlags: 0
@@ -252,7 +251,7 @@ GameObject:
   - component: {fileID: 495292216}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -315,7 +314,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1060663027
+  m_SortingLayerID: 561711803
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 83e7f516ff4fcd64383b2e8b179b93a9, type: 3}
@@ -355,7 +354,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f80c0e04efc2be142b6d7433070364ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: {x: 0, y: 300}
 --- !u!61 &495292216
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -477,7 +475,7 @@ GameObject:
   - component: {fileID: 748677462}
   m_Layer: 0
   m_Name: BG
-  m_TagString: Untagged
+  m_TagString: Background
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -519,7 +517,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 32621935
+  m_SortingLayerID: 743949547
   m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 733886f6e3562ad46a74c612d74e08e8, type: 3}
@@ -576,7 +574,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a407331ac8225a4ba9af5997631a699, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rocks: {fileID: 791345051857366152, guid: 29ab73afa379e1245b84c55cb4e438df, type: 3}
 --- !u!4 &1240911170
 Transform:
   m_ObjectHideFlags: 0
