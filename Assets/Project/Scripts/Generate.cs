@@ -13,5 +13,6 @@ public class Generate : MonoBehaviour
     private void createObstacle()
     {
         Instantiate(rocks);
+        Score.instance.addScore(1);
     }
 }
