@@ -11,4 +11,11 @@ public class Obstacle : MonoBehaviour
         GetComponent<Rigidbody2D>().velocity = velocity;
         transform.position = new Vector3(transform.position.x, transform.position.y - range * Random.value, transform.position.z);
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            Score.instance.addScore(1);
+        }
+    }
 }
